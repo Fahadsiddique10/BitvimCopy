@@ -10,9 +10,9 @@ function Global() {
           <div className="Global-line">
             <div className="line">
             </div>
-            <span>Embrace crypto with Bitvium</span>
+            <span>Global Crypto Access</span>
           </div>
-          <h2 className='cent'>Over 1M users worldwide have joined us!</h2>
+          <h2 className='cent'>Over 1M users Trust Bitvium for Crypto!</h2>
         </div>
         <div className="Global-cont">
           {globalin.map((obj, index) => (

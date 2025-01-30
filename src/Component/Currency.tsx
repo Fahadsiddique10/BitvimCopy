@@ -15,7 +15,7 @@ function Currency() {
           </div>
           <span>Currency</span>
         </div>
-        <h2 className='cent'>Quick buy</h2>
+        <h2 className='cent'>Quick Buy</h2>
         <div className="Chain">
           {Currencyin.map((obj, index) => (
             <ul key={index}>

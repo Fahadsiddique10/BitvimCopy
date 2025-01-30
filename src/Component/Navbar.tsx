@@ -36,9 +36,9 @@ const [isActive, setIsActive] = useState(true);
 
         <div className="anchor">
             <a href='#'>Personal</a>
-            <a href='#'>Business</a>
+            <a href='#' className='underline'>Business</a>
+            <div className="border"> </div>
           </div>
-
         <div className="mid-head">
         {Navbarin.map((obj, index) => (
                         <ul key={index}>
