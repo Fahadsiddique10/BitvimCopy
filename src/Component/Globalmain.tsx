@@ -4,16 +4,19 @@ interface Globalmain_Props {
 
     Image: string
     title: string
-    description:string
+    description: string
+    className: string
 }
 
-const Globalmain = ({Image,title,description}: Globalmain_Props) => {
+const Globalmain = ({ Image, title, description, className }: Globalmain_Props) => {
     return (
         <div className="hero">
-            <div className="Global-main-cont">
+            <div className={`Global-main-cont ${className}`}>
                 <img src={Image} alt="" />
-                <h3 className="">{title}</h3>
-                <p className="para">{description}</p>
+                <div className="glob-cont">
+                    <h3 className="">{title}</h3>
+                    <p className="para">{description}</p>
+                </div>
             </div>
         </div>
     )

@@ -12,16 +12,18 @@ import Global from './Component/Global'
 
 function App() {
   return (
-    <>
-    <Navbar/>
-    <Banner/>
-    <Global/>
-    <Avail/>
-    <Ramp/>
-    <Chains/>
-    <Currency/>
-    <Footer/>
-    </>
+    <div className="Modeing">
+      <>
+        <Navbar />
+        <Banner />
+        <Global />
+        <Avail />
+        <Ramp />
+        <Chains />
+        <Currency />
+        <Footer />
+      </>
+    </div>
   )
 }
 

@@ -23,7 +23,6 @@ function Ramp() {
                                  title={obj.title}
                                  description={obj.description}
                             />
-                       
                         </ul>
                     ))}
                           </div>

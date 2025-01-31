@@ -12,7 +12,7 @@ function Chains() {
                         </div>
                         <span>Blockchains</span>
                     </div>
-                    <h2>Operating on 70+ blockchains</h2>
+                    <h2 className='cent'>Operating on 70+ blockchains</h2>
                     <div className="Chain">
                           {Chainsin.map((obj, index) => (
                         <ul key={index}>
